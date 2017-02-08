@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseLibraries", "BaseLibraries", "{F965A352-11FF-4C5D-8673-57C6EC580A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoverContractBaseLib", "RoverLogicLib\RoverContractBaseLib.csproj", "{9E5F2C75-C059-4E56-B23B-E75FFDDF2E33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogicLibraries", "LogicLibraries", "{F685CC33-348C-4D1C-970F-ED1DBB4B6E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsLogicLib", "MarsLogicLib\MarsLogicLib.csproj", "{5D48056F-D831-4BC9-A5B1-E5BD0B29BE78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompassLogicLib", "CompassLogicLib\CompassLogicLib.csproj", "{ACC0518D-C278-4284-AB34-3B62A0C5CB21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Startup", "Startup", "{BC43F107-0418-4306-96DA-570E6CE55118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MARSRover", "MARSRover\MARSRover.csproj", "{E749506B-E07E-4D1F-B81A-27C9D5A6EAF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E5F2C75-C059-4E56-B23B-E75FFDDF2E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5F2C75-C059-4E56-B23B-E75FFDDF2E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5F2C75-C059-4E56-B23B-E75FFDDF2E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5F2C75-C059-4E56-B23B-E75FFDDF2E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D48056F-D831-4BC9-A5B1-E5BD0B29BE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D48056F-D831-4BC9-A5B1-E5BD0B29BE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D48056F-D831-4BC9-A5B1-E5BD0B29BE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D48056F-D831-4BC9-A5B1-E5BD0B29BE78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC0518D-C278-4284-AB34-3B62A0C5CB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC0518D-C278-4284-AB34-3B62A0C5CB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC0518D-C278-4284-AB34-3B62A0C5CB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC0518D-C278-4284-AB34-3B62A0C5CB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E749506B-E07E-4D1F-B81A-27C9D5A6EAF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E749506B-E07E-4D1F-B81A-27C9D5A6EAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E749506B-E07E-4D1F-B81A-27C9D5A6EAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E749506B-E07E-4D1F-B81A-27C9D5A6EAF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E5F2C75-C059-4E56-B23B-E75FFDDF2E33} = {F965A352-11FF-4C5D-8673-57C6EC580A40}
+		{5D48056F-D831-4BC9-A5B1-E5BD0B29BE78} = {F685CC33-348C-4D1C-970F-ED1DBB4B6E45}
+		{ACC0518D-C278-4284-AB34-3B62A0C5CB21} = {F685CC33-348C-4D1C-970F-ED1DBB4B6E45}
+		{E749506B-E07E-4D1F-B81A-27C9D5A6EAF0} = {BC43F107-0418-4306-96DA-570E6CE55118}
+	EndGlobalSection
+EndGlobal
